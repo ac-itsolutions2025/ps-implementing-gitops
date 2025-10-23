@@ -4,7 +4,7 @@ metadata:
   name: globomantics-app-dev
   namespace: argocd
 spec:
-  project: default
+  project: test
   source:
     repoURL: https://github.com/ac-itsolutions2025/ps-implementing-gitops.git
     targetRevision: HEAD
